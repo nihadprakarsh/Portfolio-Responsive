@@ -1,0 +1,58 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.54.1
+Flutter extension: 3.54.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.73.1
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    FlutterDaemon
+
+Fri Dec 02 2022 [14:12:27 GMT+0530 (India Standard Time)] Log file started
+[2:12:27 pm] [FlutterDaemon] [Info] Spawning C:\Flutter\Flutter Dev\sdks\flutter\bin\flutter.bat with args ["daemon"]
+[2:12:27 pm] [FlutterDaemon] [Info] ..  in C:\Flutter\Flutter Dev\sdks\flutter
+[2:12:27 pm] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[2:12:27 pm] [FlutterDaemon] [Info]     PID: 6960
+[2:12:27 pm] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[2:12:31 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":10908}}]
+[2:12:31 pm] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[2:12:31 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[2:12:31 pm] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_5_API_30","name":"Pixel 5 API 30","category":"mobile","platformType":"android"}]}]
+[2:12:31 pm] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[2:12:35 pm] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [Version 10.0.22000.1219]","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[2:12:35 pm] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main"}}]
+[2:12:36 pm] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["windows","ios","android","web"]}}]
+[2:12:36 pm] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 107.0.5304.107","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[2:12:36 pm] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 107.0.1418.52","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[2:20:49 pm] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main"}}]
+[2:20:49 pm] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["windows","ios","android","web"]}}]
+[2:20:49 pm] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.getEmulators"}]
+[2:20:49 pm] [FlutterDaemon] [Info] <== [{"id":"5","result":[{"id":"Pixel_5_API_30","name":"Pixel 5 API 30","category":"mobile","platformType":"android"}]}]
+[2:20:50 pm] [FlutterDaemon] [Info] ==> [{"id":"6","method":"emulator.launch","params":{"emulatorId":"Pixel_5_API_30","coldBoot":false}}]
+[2:20:53 pm] [FlutterDaemon] [Info] <== [{"id":"6"}]
+[2:21:07 pm] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main"}}]
+[2:21:07 pm] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["windows","ios","android","web"]}}]
+[2:21:07 pm] [FlutterDaemon] [Info] ==> [{"id":"8","method":"emulator.getEmulators"}]
+[2:21:07 pm] [FlutterDaemon] [Info] <== [{"id":"8","result":[{"id":"Pixel_5_API_30","name":"Pixel 5 API 30","category":"mobile","platformType":"android"}]}]
+[2:21:09 pm] [FlutterDaemon] [Info] ==> [{"id":"9","method":"emulator.launch","params":{"emulatorId":"Pixel_5_API_30","coldBoot":false}}]
+[2:21:13 pm] [FlutterDaemon] [Info] <== [{"id":"9"}]
+[2:21:13 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"The Android emulator exited with code 1 after startup"}}]
+[2:21:13 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Android emulator stderr:"}}]
+[2:21:13 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"WARNING | unexpected system image feature string, emulator might not function correctly, please try updating the emulator."}}]
+[2:21:13 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"ERROR   | Running multiple emulators with the same AVD "}}]
+[2:21:13 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"ERROR   | is an experimental feature."}}]
+[2:21:13 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"ERROR   | Please use -read-only flag to enable this feature."}}]
+[2:21:13 pm] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"error","message":"Address these issues and try again."}}]
+[2:21:15 pm] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"Android SDK built for x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_5_API_30","sdk":"Android 11 (API 30)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[2:21:15 pm] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main"}}]
+[2:21:15 pm] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["windows","ios","android","web"]}}]
+[2:21:17 pm] [FlutterDaemon] [Info] ==> [{"id":"11","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main"}}]
+[2:21:17 pm] [FlutterDaemon] [Info] <== [{"id":"11","result":{"platforms":["windows","ios","android","web"]}}]
+[2:23:08 pm] [FlutterDaemon] [Info] ==> [{"id":"12","method":"daemon.shutdown"}]
+[2:23:09 pm] [FlutterDaemon] [Info] <== [{"id":"12"}]
+Fri Dec 02 2022 [14:23:09 GMT+0530 (India Standard Time)] Log file ended

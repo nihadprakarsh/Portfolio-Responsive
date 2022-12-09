@@ -1,0 +1,79 @@
+name: folio
+description: Live portfolio developed in flutter 3.0.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  animated_text_kit: ^4.2.1
+  carousel_slider: ^4.0.0
+  cupertino_icons: ^1.0.2
+  flip_card: ^0.6.0
+  flutter:
+    sdk: flutter
+  flutter_html: any
+  flutter_unicons: any
+  font_awesome_flutter: ^10.1.0
+  github: ^9.2.0
+  http: ^0.13.1
+  line_icons: ^2.0.0
+  mailto: ^2.0.0
+  provider: ^6.0.1
+  shared_preferences: ^2.0.6
+  unicons: ^2.1.0
+  universal_html: ^2.0.4
+  url_launcher: ^6.1.2
+  url_strategy: ^0.2.0
+  google_fonts: ^3.0.1
+
+
+dev_dependencies:
+
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/work/
+    - assets/photos/
+    - assets/services/
+    - assets/projects/
+
+    - data.json
+
+  fonts:
+    - family: Agustina
+      fonts:
+        - asset: fonts/agustina/agustina.otf
+
+    - family: Montserrat
+      fonts:
+        - asset: fonts/montserrat/montserrat.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/poppins/Poppins-Regular.ttf
+        - asset: fonts/poppins/Poppins-Light.ttf
+        - asset: fonts/poppins/Poppins-Bold.ttf
+          weight: 900
+        - asset: fonts/poppins/Poppins-Medium.ttf
+          weight: 300
+        - asset: fonts/poppins/Poppins-SemiBold.ttf
+          weight: 500
+        - asset: fonts/poppins/Poppins-Italic.ttf
+          style: italic

@@ -1,0 +1,37 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.54.1
+Flutter extension: 3.54.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.73.1
+Platform: win
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    DAP
+
+Fri Dec 02 2022 [14:12:27 GMT+0530 (India Standard Time)] Log file started
+[2:21:17 pm] [DAP] [Info] Starting debug session ec8a5560-276b-4c29-8778-a93caae8853c
+[2:21:17 pm] [DAP] [Info] <== {"command":"initialize","arguments":{"clientID":"vscode","clientName":"Visual Studio Code","adapterID":"dart","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":true,"locale":"en-us","supportsProgressReporting":true,"supportsInvalidatedEvent":true,"supportsMemoryReferences":true,"supportsArgsCanBeInterpretedByShell":true},"type":"request","seq":1}
+[2:21:20 pm] [DAP] [Info] ==> {"seq":1,"type":"response","body":{"exceptionBreakpointFilters":[{"default":false,"filter":"All","label":"All Exceptions"},{"default":true,"filter":"Unhandled","label":"Uncaught Exceptions"}],"supportsClipboardContext":true,"supportsConditionalBreakpoints":true,"supportsConfigurationDoneRequest":true,"supportsDelayedStackTraceLoading":true,"supportsEvaluateForHovers":true,"supportsLogPoints":true,"supportsRestartRequest":true,"supportsTerminateRequest":true},"command":"initialize","request_seq":1,"success":true}
+[2:21:20 pm] [DAP] [Info] ==> {"seq":2,"type":"event","body":{},"event":"initialized"}
+[2:21:20 pm] [DAP] [Info] <== {"command":"launch","arguments":{"name":"Dart ","noDebug":true,"request":"launch","type":"dart","groupId":0,"program":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main\\lib\\main.dart","dartCodeDebugSessionID":"session-ef1ca","cwd":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main","deviceId":"emulator-5554","deviceName":"Pixel 5 API 30 (android-x86)","toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"},"sendLogsToClient":true,"sendCustomProgressEvents":true,"additionalProjectPaths":["C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main"],"args":[],"vmAdditionalArgs":[],"toolArgs":["-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/"],"vmServicePort":0,"dartSdkPath":"C:\\Flutter\\Flutter Dev\\sdks\\flutter\\bin\\cache\\dart-sdk","vmServiceLogFile":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main\\logs\\observatory.txt","maxLogLineLength":2000,"dartTestLogFile":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main\\logs\\dart_test.txt","debugSdkLibraries":false,"debugExternalPackageLibraries":false,"showDartDeveloperLogs":true,"evaluateGettersInDebugViews":true,"evaluateToStringInDebugViews":true,"daemonPort":false,"flutterSdkPath":"C:\\Flutter\\Flutter Dev\\sdks\\flutter","useInspectorNotificationsForWidgetErrors":false,"flutterRunLogFile":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main\\logs\\flutter_run.txt","flutterTestLogFile":"C:\\Flutter\\todo_firebase_auth\\devFolio\\devfolio-main\\logs\\flutter_test.txt","showMemoryUsage":false,"debuggerType":2,"__sessionId":"ec8a5560-276b-4c29-8778-a93caae8853c"},"type":"request","seq":2}
+[2:21:20 pm] [DAP] [Info] <== {"command":"configurationDone","type":"request","seq":3}
+[2:21:20 pm] [DAP] [Info] ==> {"seq":3,"type":"response","command":"configurationDone","request_seq":3,"success":true}
+[2:21:20 pm] [DAP] [Info] <== {"command":"threads","type":"request","seq":4}
+[2:21:20 pm] [DAP] [Info] ==> {"seq":4,"type":"event","body":{"message":"Launching…","progressId":"launch_1","title":"Flutter"},"event":"dart.progressStart"}
+[2:21:20 pm] [DAP] [Info] ==> {"seq":5,"type":"response","command":"launch","request_seq":2,"success":true}
+[2:21:20 pm] [DAP] [Info] ==> {"seq":6,"type":"response","body":{"threads":[]},"command":"threads","request_seq":4,"success":true}
+[2:21:25 pm] [DAP] [Info] ==> {"seq":7,"type":"event","body":{"category":"console","output":"Launching lib\\main.dart on Android SDK built for x86 in debug mode...\n"},"event":"output"}
+[2:23:05 pm] [DAP] [Info] <== {"command":"terminate","arguments":{"restart":false},"type":"request","seq":5}
+[2:23:07 pm] [DAP] [Info] <== {"command":"disconnect","arguments":{"restart":false},"type":"request","seq":6}
+[2:23:07 pm] [DAP] [Info] ==> {"seq":8,"type":"response","command":"disconnect","request_seq":6,"success":true}
+[2:23:07 pm] [DAP] [Info] ==> {"seq":9,"type":"event","body":{"output":"\nExited."},"event":"output"}
+[2:23:07 pm] [DAP] [Info] ==> {"seq":10,"type":"event","body":{},"event":"terminated"}
+[2:23:07 pm] [DAP] [Info] ==> {"seq":11,"type":"response","command":"terminate","request_seq":5,"success":true}
+[2:23:08 pm] [DAP] [Info] Stopping debug session ec8a5560-276b-4c29-8778-a93caae8853c
+[2:23:09 pm] [DAP] [Info] Debug session ec8a5560-276b-4c29-8778-a93caae8853c exit: code: 0, signal: undefined
+Fri Dec 02 2022 [14:23:09 GMT+0530 (India Standard Time)] Log file ended
